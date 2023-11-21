@@ -1,0 +1,292 @@
+body, h1, h2, h3, h4, h5, h6, ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+		font-family:'open sans';
+}
+a{
+	text-decoration:none;
+}
+.container {
+    left: 230px;
+    position: absolute;
+    width: 940px;
+}
+.top-box {
+	border-bottom: 1px solid #CCCCCC;
+	float: left;
+	width: 100%;
+}
+.title {
+    float: left;
+    margin-top: 10px;
+    width: 100%;
+}
+.title h1 {
+    border-bottom: 4px double;
+    color: #000;
+    font-family: roboto;
+    font-size: 36px;
+    font-weight: normal;
+    margin: 0 auto;
+    max-width: 630px;
+    text-align: center;
+}
+.section h3 {
+    color: #41A6B0;
+    float: left;
+    font-family: open sans;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 15px;
+    text-transform: uppercase;
+    width: 100%;
+}
+strong {
+    background: none repeat scroll 0 0 #000;
+    color: #FFFFFF;
+    float: left;
+    font-family: roboto;
+    font-weight: 500;
+    line-height: 13px;
+    margin: 0 10px 5px 0;
+    padding: 5px;
+	
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px;
+}
+.section .content p {
+    margin-top: 10px;
+}
+.meta {
+    background: none repeat scroll 0 0 #FAFAFC;
+    border: 1px solid #EEEEEE;
+    float: right;
+    font-family: Verdana;
+    font-size: 12px;
+    margin: 20px 75px 20px 0;
+    padding: 15px 10px;
+    text-align: center;
+    width: 220px;
+
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+}
+.meta a {
+	color: #3399FF;
+	text-decoration: none;
+}
+
+.left-side-menu img {
+    padding-bottom: 30px;
+}
+.left-side-menu > a {
+    width: 100%;
+    text-align: center;
+}
+.left-side-menu {
+	background: none repeat scroll 0 0 #960d67;
+	float: left;
+	height: 100%;
+	position: fixed;
+	width: 200px;
+
+	-webkit-box-shadow: 0 0 3px #000000;
+	-moz-box-shadow: 0 0 3px #000000;
+	-ms-box-shadow: 0 0 3px #000000;
+	-o-box-shadow: 0 0 3px #000000;
+	box-shadow: 0 0 3px #000000;
+}
+.left-side-menu li {
+    border-top:1px solid #fff;
+    float: left;
+    text-align: right;
+    width: 100%;
+
+	-webkit-transition:all 0.5s ease 0s;
+	-moz-transition:all 0.5s ease 0s;
+	-ms-transition:all 0.5s ease 0s;
+	-o-transition:all 0.5s ease 0s;
+	transition:all 0.5s ease 0s;
+}
+.left-side-menu li:hover {
+    background: none repeat scroll 0 0 #ee4618;
+}
+.left-side-menu a {
+    color: #fff;
+    display: inline-block;
+    font-family: roboto;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 20px 15px 20px 0;
+    text-transform: uppercase;
+}
+.title h2 {
+    color: #000;
+    float: left;
+    font-family: roboto;
+    font-size: 25px;
+    font-weight: normal;
+    margin-top: 10px;
+}
+.section {
+    float: left;
+    width: 100%;
+}
+.section p {
+    color: #7D7D7D;
+    float: left;
+    font-family: noto sans;
+    font-size: 14px;
+    line-height: 28px;
+    margin-bottom: 0;
+    margin-top: 20px;
+    padding-left: 20px;
+    width: 100%;	
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	box-sizing:border-box;
+}
+.section ul {
+    float: left;
+    font-family: roboto;
+    font-size: 13px;
+    list-style: decimal outside none;
+    margin: 10px 0 30px;
+    padding-left: 36px;
+    width: 100%;
+}
+.section ul ul {
+	margin:10px 0;
+}
+.section > img {
+    padding-left: 40px;
+    padding-top: 30px;
+    width: 530px;
+}
+.section li {
+    color: #4C4C4C;
+    float: left;
+    line-height: 25px;
+    width: 100%;
+}
+code {
+    background: none repeat scroll 0 0 #F7F7F9;
+    border: 1px solid #E1E1E8;
+    display: inline-block;
+	color:#CE1332;
+    font-family: roboto;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 0.2px;
+    line-height: 20px;
+    padding: 0 10px;
+	
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.long-code {
+    color: #28ab7c;
+    float: left;
+    margin: 20px 5%;
+    width: 90%;
+}
+
+#accordion {
+    border: 1px solid #BEBEBE;
+    float: left;
+    margin: 10px auto;
+    width: 100%;
+}
+
+#accordion h2 {
+    background:none repeat scroll 0 0 #000;
+    border-bottom: 1px solid #EEEEEE;
+    border-top: 1px solid #A5A5A5;
+    cursor: pointer;
+    float: left;
+    font-family: roboto;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    line-height: 25px;
+    margin: 0;
+	color:#fff;
+    padding: 10px 15px;
+    text-shadow: 1px 1px 0 #000000;
+    text-transform: uppercase;
+    width: 100%;	
+	
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+	
+	-webkit-transition:all 0.4s ease 0s;
+	-moz-transition:all 0.4s ease 0s;
+	-ms-transition:all 0.4s ease 0s;
+	-o-transition:all 0.4s ease 0s;
+	transition:all 0.4s ease 0s;
+	
+}
+#accordion > h2:hover {
+    background: none repeat scroll 0 0 #3297A1;
+}
+#accordion .content {
+    background-color:#FFFFFF;
+	 padding:10px 15px;
+	 color:black;
+	 float:left;
+	 width:100%;
+	 border-bottom:1px solid #BEBEBE;
+	
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	box-sizing:border-box;
+}
+#accordion h2.active {
+    background: none repeat scroll 0 0 #EAEAEA;
+    color: #000;
+    text-shadow: 0 0 0;
+}
+.screenshot {
+    border: 4px double #dfdfdf;
+    float: left;
+    margin: 30px 0;
+    overflow: hidden;
+    width: 100%;
+
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -ms-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    box-sizing:border-box;
+
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+}
+.screenshot img {
+    float: left;
+    width: 100%;
+}
+.screenshot.smaller {
+    width: 50%;
+}

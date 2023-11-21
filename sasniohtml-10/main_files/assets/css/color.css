@@ -1,0 +1,30 @@
+/* Color */
+.team-details-text a:hover,.hero-two-texr a:hover,
+.navbar-links li.navbar-dropdown .dropdown a:hover,.team-details span,.team-details-text i,
+ul.quick-links li a:hover,ul.Meta li a:hover,.blog.our-blog h2:hover,.visit-website i,.location a:hover,
+.blog-three h6 span,.blog-three h4:hover,.recent-post i,.recent-post a:hover,.cloud-storage a:hover,
+.blog-style-text h6 span,.blog-style-text a:hover,.team-text span,.team-text h4:hover,.team-text a:hover,
+.heading h6,.projects-style h4 a:hover,.accordion-item.active .title,.blog h4:hover,.phone a:hover,
+.footer-links li a:hover,.copyrights a:hover,.intelligent-text h4:hover,.solutions a:hover {
+   
+    color: #f0346e;
+
+}
+/* Background Color */
+.screenshots-slider .owl-nav i:hover,
+.navbar-links li.navbar-dropdown .dropdown a:before,.two.nav-pills .nav-link:before,
+.blog.our-blog > a:hover,ul.features li:before,.prev-work-one a:hover i,.visit-website a:hover i,
+.accordion-item.active .icon:before,.blog-three a i:hover {
+
+    background-color:#f0346e;
+
+}
+
+
+.location:hover,.screenshots-slider .owl-nav i:hover,
+.blog.our-blog > a,ul.pagination li.prev,.prev-work-one i,.visit-website i,.cloud-storage i,
+.two.nav-pills .nav-link.active,.blog-three a i,ul.categories li a span,ul.categories li a:hover,
+.projects-img a i,.owl-item.active.center .services,.ceo img,.expert-icon > a i,.team-details-text i { 
+    border-color:#f0346e;
+
+}
